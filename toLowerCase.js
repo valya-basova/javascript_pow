@@ -1,3 +1,1 @@
-[foo, bar] = [bar, foo];
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-console.log(false === '0');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');

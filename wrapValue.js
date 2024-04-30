@@ -1,2 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-const stringReverse = str => str.split("").reverse().join("");
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const uniqueArr = (arr) => [...new Set(arr)];

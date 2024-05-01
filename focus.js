@@ -1,3 +1,1 @@
-console.log(false == '0');
-const isArray = (arr) => Array.isArray(arr);
-const results = await Promise.all(resultingPromises);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);

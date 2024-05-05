@@ -1,3 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const uniqueArr = (arr) => [...new Set(arr)];
+const merge = Object.assign({}, obj1, obj2);
+[foo, bar] = [bar, foo];
+const uniqueArray = arr => [...new Set(arr)];

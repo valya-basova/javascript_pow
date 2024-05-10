@@ -1,3 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const isArray = (arr) => Array.isArray(arr);
-const fullName = name || 'buddy';
+function myAPITS(someString: string, someNum: number) { ... };
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;

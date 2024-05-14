@@ -1,2 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const minNumber = arr => Math.min(...arr);

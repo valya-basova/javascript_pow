@@ -1,1 +1,2 @@
-var arr2 = arr1.reverse();
+const allResults = await Promise.all(items.map(async (item) => {}));
+const scriptRootPath = path.join(repositoryRootPath, 'script');

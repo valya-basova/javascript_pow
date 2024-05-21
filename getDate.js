@@ -1,4 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-console.log(false == '0');
-const reversedString = str => str.split('').reverse().join('');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const maxNumber = arr => Math.max(...arr);
+const flattenedArray = arr => [].concat(...arr);

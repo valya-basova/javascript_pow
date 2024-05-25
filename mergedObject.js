@@ -1,1 +1,1 @@
-const channelName = getChannelName(channel);
+const isWeekday = (date) => date.getDay() % 6 !== 0;

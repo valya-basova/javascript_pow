@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log("0 || 1 = "+(0 || 1));
+const repositoryRootPath = path.resolve(__dirname, '..');

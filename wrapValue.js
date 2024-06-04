@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const goToTop = () => window.scrollTo(0, 0);

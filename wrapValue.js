@@ -1,2 +1,2 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const goToTop = () => window.scrollTo(0, 0);
+const merge = [...new Set([...a, ...b])];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));

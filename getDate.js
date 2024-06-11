@@ -1,3 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const channel = getChannel(computedAppVersion);
+const isArray = (arr) => Array.isArray(arr);
+const getRandomBoolean = () => Math.random() >= 0.5;

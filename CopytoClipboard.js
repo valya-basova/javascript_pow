@@ -1,3 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const flattenedArray = arr => [].concat(...arr);
-const executableName = getExecutableName(channel, appName);
+console.log(1 +  "2" + "2");
+const stringReverse = str => str.split("").reverse().join("");

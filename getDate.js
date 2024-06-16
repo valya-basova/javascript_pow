@@ -1,2 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-const results = await Promise.all(resultingPromises);
+console.log(1 +  "2" + "2");
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+console.log( "A" - "B" + "2");

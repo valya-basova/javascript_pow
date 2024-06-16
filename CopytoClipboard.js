@@ -1,3 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-console.log("1 || 2 = "+(1 || 2));
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const result = await makeHttpRequest(url);
+const isEmptyArray = arr => !arr.length;

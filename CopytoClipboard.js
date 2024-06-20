@@ -1,3 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const result = await makeHttpRequest(url);
-const isEmptyArray = arr => !arr.length;
+const results = await Promise.all(resultingPromises);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());

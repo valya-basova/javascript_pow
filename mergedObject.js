@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const repositoryRootPath = path.resolve(__dirname, '..');
+var arr3 = "jones".split('');
+const randomString = () => Math.random().toString(36).slice(2);

@@ -1,1 +1,2 @@
-const merge = [...new Set(a.concat(b))];
+const channelName = getChannelName(channel);
+console.log("0 && 1 = "+(0 && 1));

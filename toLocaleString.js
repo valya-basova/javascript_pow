@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+console.log("1 && 2 = "+(1 && 2));

@@ -1,3 +1,2 @@
-console.log(1 +  "2" + "2");
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const isArray = (arr) => Array.isArray(arr);
+console.log( "A" - "B" + 2);
+const randomString = () => Math.random().toString(36).slice(2);

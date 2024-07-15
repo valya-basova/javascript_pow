@@ -1,3 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
-console.log(typeof typeof 1);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const lastElement = arr => arr[arr.length - 1];
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);

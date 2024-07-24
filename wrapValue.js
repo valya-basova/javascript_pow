@@ -1,2 +1,3 @@
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
 var arr1 = "john".split('');
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isEven = (num) => num % 2 === 0;

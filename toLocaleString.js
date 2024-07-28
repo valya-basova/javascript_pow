@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const stringReverse = str => str.split("").reverse().join("");
+const getRandomBoolean = () => Math.random() >= 0.5;

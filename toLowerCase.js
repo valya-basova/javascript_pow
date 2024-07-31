@@ -1,1 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const executableName = getExecutableName(channel, appName);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;

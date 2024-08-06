@@ -1,2 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const getRandomBoolean = () => Math.random() >= 0.5;
+const arrayContains = (arr, element) => arr.includes(element);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
